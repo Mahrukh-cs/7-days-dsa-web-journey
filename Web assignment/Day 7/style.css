@@ -1,0 +1,35 @@
+
+        body {
+            color: purple;
+            background-color: pink;
+        }
+        h1, nav{
+            text-align: center;
+        }
+        .box{
+            border: 5px solid;
+            padding: 50px;
+            margin: 15px;
+        }
+        p {
+            font-size: 20px;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: row;   
+            gap: 30px;
+        }
+        @media (min-width: 480px) {
+            body {
+                width: 100%;
+            }
+            .container {
+                font-size: 18px;
+                flex-direction: column;
+            }
+            .box {
+                font-size: 24px;
+            }
+        }
